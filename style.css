@@ -1,39 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Cormorant+Garamond:wght@500&display=swap');
 
 body {
   margin: 0;
-  background: #121417;
-  color: #e6e6e6;
-  font-family: 'Inter', sans-serif;
+  background: #f4f1ec;
+  color: #2f3e2e;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .container {
   max-width: 650px;
   margin: auto;
-  padding: 50px 20px;
+  padding: 60px 22px;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
-  color: #f0ede8;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.6rem;
+  color: #3a4a3a;
+  margin-bottom: 8px;
 }
 
 .subtitle {
-  font-size: 0.85rem;
-  color: #9fa4aa;
-  margin-bottom: 35px;
+  font-size: 0.9rem;
+  color: #7a8b73;
+  margin-bottom: 40px;
+  font-style: italic;
 }
 
 .card {
-  background: #1a1d21;
-  border-radius: 14px;
-  padding: 28px;
-  border: 1px solid #2a2f36;
+  background: #fffdf9;
+  border-radius: 18px;
+  padding: 32px 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .card p {
-  line-height: 1.7;
+  line-height: 1.9;
   font-size: 1rem;
 }
