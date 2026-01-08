@@ -107,3 +107,32 @@ h1 {
 .menu-item:hover {
   transform: translateY(-4px);
 }
+.contact {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 0.9rem;
+  color: #6f7f6a;
+  margin-bottom: 18px;
+  font-style: italic;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.contact-icons img {
+  width: 28px;
+  height: 28px;
+  opacity: 0.75;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.contact-icons img:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
