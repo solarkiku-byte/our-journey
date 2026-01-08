@@ -39,3 +39,71 @@ h1 {
   line-height: 1.9;
   font-size: 1rem;
 }
+/* SLIDING STRUCTURE */
+.slider {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.page {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 24px;
+}
+
+/* PAGE 1: MINIMAL */
+.page-intro {
+  background: #ffffff;
+  color: #2f3e2e;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 0.95rem;
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+/* PAGE 2: FAIRYTALE */
+.page-fairytale {
+  background: linear-gradient(to bottom, #f4f1ec, #ebe5dc);
+  text-align: center;
+}
+
+.ornament {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #7a8b73;
+}
+
+.fairytale-text {
+  max-width: 460px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  font-size: 0.95rem;
+}
+
+/* MENU BOX */
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  background: #fffdf9;
+  padding: 18px 28px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transition: transform 0.25s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-4px);
+}
